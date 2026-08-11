@@ -17,8 +17,8 @@ import json
 import sys
 from pathlib import Path
 
-# Repo root = two levels up from website/scripts/.
-REPO_ROOT = Path(__file__).resolve().parents[2]
+# Repo root = one level up from scripts/.
+REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
 OUTPUT = REPO_ROOT / "static" / "api" / "automation-blueprints-index.json"

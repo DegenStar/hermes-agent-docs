@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm ci",
+  "installCommand": "pip install pyyaml && npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "build"
 }
