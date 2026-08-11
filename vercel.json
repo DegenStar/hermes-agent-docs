@@ -1,5 +1,5 @@
 {
-  "installCommand": "pip install pyyaml && npm ci",
+  "installCommand": "pip install --break-system-packages pyyaml && npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "build"
 }
