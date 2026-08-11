@@ -21,7 +21,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 
-OUTPUT = REPO_ROOT / "website" / "static" / "api" / "automation-blueprints-index.json"
+OUTPUT = REPO_ROOT / "static" / "api" / "automation-blueprints-index.json"
 
 
 def build_index() -> list:
