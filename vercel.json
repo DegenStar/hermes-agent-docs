@@ -7,14 +7,14 @@
       "source": "/(.*\\.sh)",
       "headers": [
         { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Content-Disposition", "value": "inline" }
+        { "key": "Content-Disposition", "value": "attachment" }
       ]
     },
     {
       "source": "/(.*\\.ps1)",
       "headers": [
         { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Content-Disposition", "value": "inline" }
+        { "key": "Content-Disposition", "value": "attachment" }
       ]
     }
   ]
